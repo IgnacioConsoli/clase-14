@@ -16,9 +16,7 @@ h1{
 }
 
 
-.div-padre :first-child{
-    
-}
+
 
 .div-padre{
     background-image: url(https://turismo.buenosaires.gob.ar/sites/turismo/files/estadio_boca_juniors_1200_cancha_1.jpg);
@@ -27,12 +25,7 @@ h1{
     background-size:cover;
 
 }
-.barra-nav{
-    top: ;
-    left: ;
-    bottom: ;
-    right: ;
-}
+
 .div-padre{
     margin: 31px;
     padding: 51px;
