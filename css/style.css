@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+h1{
+    background-color: rgba(255, 255, 0, 0.648);
+    color: blue;
+    font-family: 'Darumadrop One', cursive;
+}
+
+.Parrafo-1{
+    color: blue;
+    font-family: 'Instrument Serif', serif;
+}
+.Parrafo-2{
+    color: black;
+    font-family: 'Anton', sans-serif;
+}
