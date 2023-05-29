@@ -1,16 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
 
 h1{
     background-color: rgba(255, 255, 0, 0.648);
     color: blue;
     font-family: 'Darumadrop One', cursive;
+    text-align: center;
+    
 }
 
-.Parrafo-1{
-    color: blue;
-    font-family: 'Instrument Serif', serif;
+
+.div-padre :first-child{
+    
 }
-.Parrafo-2{
-    color: black;
-    font-family: 'Anton', sans-serif;
+
+.div-padre{
+    background-image: url(https://turismo.buenosaires.gob.ar/sites/turismo/files/estadio_boca_juniors_1200_cancha_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+
+}
+.barra-nav{
+    top: ;
+    left: ;
+    bottom: ;
+    right: ;
+}
+.div-padre{
+    margin: 31px;
+    padding: 51px;
+    border: 0px;
+
+
 }
