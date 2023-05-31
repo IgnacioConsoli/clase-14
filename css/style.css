@@ -1,47 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 
-h1{
-    
+h1 {
+
     color: blue;
     font-family: 'Darumadrop One', cursive;
     text-align: center;
-    
+
 }
 
 
 
 
-.div-padre{
+.div-padre {
     background-image: url(https://turismo.buenosaires.gob.ar/sites/turismo/files/estadio_boca_juniors_1200_cancha_1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
 
 }
 
-.div-padre{
+.div-padre {
     margin: 31px;
     padding: 51px;
     border: 0px;
 }
-.footer{
+
+.footer {
     background-color: gray;
-    padding:10px  0px;
+    padding: 10px 0px;
     color: black;
 }
-.section-roman{
-    display: inline;
+
+.section-lompa {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
-.section-lompa{
-    display: inline;
+
+
+ul {
+    list-style: none;
 }
-.section-lompa div:first-child{
-    display: inline;
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 22px;
+    background-color: yellow;
+}
+
+.header {
+    background-color: rgb(26, 152, 231);
+
+}
+
+li {
+    height: 60px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    background-color: salmon;
+}
+
+.caja {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: turquoise;
+}
+
+.main {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(248, 252, 70, 1) 100%);
 }
