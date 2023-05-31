@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Argentina Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Melisa Rubiera:mailto:melisa_rubiera@eberaza.com.ar
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=nachoconso
+ li02@gmail.com:mailto:nachoconsoli02@gmail.com
+DESCRIPTION;LANGUAGE=es-ES:\n______________________________________________
+ __________________________________\nReunión de Microsoft Teams\nÚnase a 
+ través de su ordenador\, aplicación móvil o dispositivo de sala\nHaga c
+ lic aquí para unirse a la reunión<https://teams.microsoft.com/l/meetup-j
+ oin/19%3ameeting_MDFjNzc1MDUtODZiNy00YjJjLThjNjQtZTU5NTAxNTAyMjVl%40thread
+ .v2/0?context=%7b%22Tid%22%3a%22f0b2a44e-513d-475c-96b7-d5f63c7e85a5%22%2c
+ %22Oid%22%3a%2217adae68-2e8b-4566-99d2-81606d86f748%22%7d>\nID de la reuni
+ ón: 283 174 067 434\nCódigo de acceso: YHJqSq\nDescargar Teams<https://w
+ ww.microsoft.com/en-us/microsoft-teams/download-app> | Unirse en la web<ht
+ tps://www.microsoft.com/microsoft-teams/join-a-meeting>\nInfórmese<https:
+ //aka.ms/JoinTeamsMeeting> | Opciones de reunión<https://teams.microsoft.
+ com/meetingOptions/?organizerId=17adae68-2e8b-4566-99d2-81606d86f748&tenan
+ tId=f0b2a44e-513d-475c-96b7-d5f63c7e85a5&threadId=19_meeting_MDFjNzc1MDUtO
+ DZiNy00YjJjLThjNjQtZTU5NTAxNTAyMjVl@thread.v2&messageId=0&language=es-ES>\
+ n_________________________________________________________________________
+ _______\n\n
+UID:040000008200E00074C5B7101A82E0080000000010BC18855092D901000000000000000
+ 0100000007459DA1631B04D4AA45524126245562E
+SUMMARY;LANGUAGE=es-ES:Entrevista | Ignacio Consoli 
+DTSTART;TZID=Argentina Standard Time:20230530T110000
+DTEND;TZID=Argentina Standard Time:20230530T113000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20230529T201114Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=es-ES:Reunión de Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:-1594009625
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_MDFjNzc1MDUtODZiNy00YjJjLThjNjQtZTU5NTAxNTAyMjVl%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22f0b2a44e-513d-475c-96b7-d5f63c7e85a5%22%2c%22O
+ id%22%3a%2217adae68-2e8b-4566-99d2-81606d86f748%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/f0b2a44e-513d-475c-96b7-d5f63c7e85a5/17adae68-2e8b-4566-99d2-8
+ 1606d86f748/19_meeting_MDFjNzc1MDUtODZiNy00YjJjLThjNjQtZTU5NTAxNTAyMjVl@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_MDFjNzc1MDUtODZiNy00YjJ
+ jLThjNjQtZTU5NTAxNTAyMjVl@thread.v2"\,"private":true\,"type":0\,"mid":0\,"
+ rid":0\,"uid":null}
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:melisa_rubiera@eberaza.com.ar\;g
+ ruu\;opaque=app:conf:focus:id:teams:2:0!19:meeting_MDFjNzc1MDUtODZiNy00YjJ
+ jLThjNjQtZTU5NTAxNTAyMjVl-thread.v2!17adae682e8b456699d281606d86f748!f0b2a
+ 44e513d475c96b7d5f63c7e85a5
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Reunión de Microsoft Teams"\, "
+ LocationAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false\, "
+ LocationUri" : "" } ]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

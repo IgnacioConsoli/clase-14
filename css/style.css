@@ -8,7 +8,7 @@
 
 
 h1{
-    background-color: rgba(255, 255, 0, 0.648);
+    
     color: blue;
     font-family: 'Darumadrop One', cursive;
     text-align: center;
@@ -30,6 +30,18 @@ h1{
     margin: 31px;
     padding: 51px;
     border: 0px;
-
-
+}
+.footer{
+    background-color: gray;
+    padding:10px  0px;
+    color: black;
+}
+.section-roman{
+    display: inline;
+}
+.section-lompa{
+    display: inline;
+}
+.section-lompa div:first-child{
+    display: inline;
 }
