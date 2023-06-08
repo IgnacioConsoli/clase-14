@@ -90,9 +90,42 @@ li {
     background: rgb(63, 94, 251);
     background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(248, 252, 70, 1) 100%);
 }
-.contenedor-2{
+
+.contenedor-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
 
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 0.7fr;
+    grid-template-rows: 0.6fr 1.4fr 1.5fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "header header header"
+        "main main aside"
+        "main main aside"
+        "footer footer footer";
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.main {
+    grid-area: main;
+}
+
+.header {
+    grid-area: header;
+}
+
+.aside {
+    grid-area: aside;
+}
+@media screen and (max-width 768px) {
+    
 }
